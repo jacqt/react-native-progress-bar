@@ -1,11 +1,13 @@
-import React from 'react';
-import {
-    StyleSheet,
-    Text,
-    View,
-    Animated,
-    Easing,
-} from 'react-native';
+var React = require('react');
+var ReactNative = require('react-native');
+
+var {
+  Animated,
+  Easing,
+  StyleSheet,
+  View
+} = ReactNative;
+
 
 var styles = StyleSheet.create({
   background: {
